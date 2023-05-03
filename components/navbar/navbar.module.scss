@@ -1,0 +1,13 @@
+@import "styles/variables.module";
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbarButtons{
+  @include baseButton;
+  display: flex;
+  justify-content: space-between;
+  max-width: 380px;
+  width: 100%;
+}
