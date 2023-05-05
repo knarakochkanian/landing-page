@@ -1,0 +1,10 @@
+@import "styles/variables.module";
+
+.stepsSection{
+  @include container;
+  >h2{
+    text-align: center;
+    padding-bottom: 56px;
+  }
+
+}

@@ -9,7 +9,8 @@ export default function Title() {
                         Front-End
                     </h1>
                     <p className={styles.description}>
-                        Make UIs and websites beautiful, functional, and fast. Cover all the topics that expensive bootcamps teach (and more).
+                        Make UIs and websites beautiful, functional, and fast. Cover all the topics that expensive
+                        bootcamps teach (and more).
                     </p>
                 </div>
                 <div className={styles.title}>
@@ -20,6 +21,9 @@ export default function Title() {
                         Developer
                     </h1>
                 </div>
+                <h3 className={styles.titleSmall}>
+                    Courses
+                </h3>
             </div>
         </section>
     )

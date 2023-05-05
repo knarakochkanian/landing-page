@@ -1,0 +1,85 @@
+@import "styles/variables.module";
+
+.aboutSection {
+  @include container;
+  padding-top: 189px;
+  position: relative;
+  height: 600px;
+  > h2 {
+    text-align: center;
+  }
+
+  > h2::after {
+    display: block;
+    background-image: url('/public/assets/svg/Star.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35.55px;
+    height: 40.63px;
+    transition: all .25s ease-in-out;
+  }
+}
+
+.aboutInfo {
+  display: flex;
+  padding: 56px 0 179px 0;
+
+  > div {
+    width: 50%;
+    position: relative;
+
+    > h3 {
+      text-align: center;
+    }
+
+    > h4 {
+      pagging-left: 100px;
+    }
+  }
+}
+
+.aboutDescription {
+  @include description;
+  max-width: 468px;
+  width: 100%;
+  padding-top: 71px;
+}
+
+.aboutVector {
+  padding-left: 105px;
+}
+
+.aboutInfoDescription {
+  max-width: 185px;
+  padding-top: 4px;
+  @include descriptionSmall;
+}
+
+.aboutInfoText1 {
+  position: absolute;
+  left: 1%;
+  width: 234px;
+}
+
+.aboutInfoText2 {
+  position: absolute;
+  left: 34%;
+  top: 72%;
+
+}
+
+.aboutInfoText3 {
+  position: absolute;
+  left: 68%;
+}
+
+.aboutFront {
+  position: absolute;
+  right: 0;
+}
+.aboutEllipse {
+  position: absolute;
+  right: -30px;
+  bottom: -350px;
+}

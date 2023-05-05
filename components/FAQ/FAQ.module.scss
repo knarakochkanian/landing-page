@@ -1,0 +1,36 @@
+@import "styles/variables.module";
+
+.FAGSection{
+  @include container;
+
+  >h2{
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+.FAGInfo{
+  display: flex;
+  >div{
+    width: 50%;
+    >p{
+      @include description
+    }
+  }
+}
+.FAGCollapse{
+  border-image-slice: 1;
+  border: 1px solid;
+  border-image-source: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+  background: rgba(255, 255, 255, 0.05);
+  > button {
+    border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+
+  }
+  >h4{
+    color: inherit;
+    background: rgba(255, 255, 255, 0.05);
+  }
+}

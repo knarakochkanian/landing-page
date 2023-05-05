@@ -1,0 +1,39 @@
+.programs {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  >div{
+
+    > div:nth-child(1) {
+      left: 27%;
+    }
+    > div:nth-child(2) {
+      left: 52%;
+    }
+    > div:nth-child(3) {
+      left: 77%;
+    }
+    > div:nth-child(4) {
+      left: 102%;
+    }
+  }
+
+}
+
+.ImgBlock {
+  content: ' ';
+  display: block;
+  position: absolute;
+  background: url("../../../public/assets/svg/Subtract.svg") no-repeat;
+  width: 181px;
+  height: 230px;
+
+  > h4 {
+    text-align: center;
+    padding-bottom: 24px;
+  }
+}
+
+.image {
+  padding: 16px 0;
+}
