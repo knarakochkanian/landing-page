@@ -13,10 +13,12 @@ export default function FAQ() {
                     </p>
                     <Image src={question} alt={'question'} width={344} height={405}/>
                 </div>
-                <div>
+                <div className={styles.FAGCollapse}>
                     <button className={styles.FAGcollapse}>
                         <h4>What is the price?</h4>
+                        <span></span>
                     </button>
+
                         <p>Front-end engineers work closely with designers to make websites beautiful, functional, and fast.
                             This Career Path will teach you not only the necessary languages and technologies, but how to
                             think like a front-end engineer, too.</p>

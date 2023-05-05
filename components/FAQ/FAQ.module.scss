@@ -14,21 +14,27 @@
 .FAGInfo{
   display: flex;
   >div{
-    width: 50%;
+    > button {
+      background-color: $color-bg;
+      max-width: 703px;
+      height: 62px;
+      width: 100%;
+      padding: 24px;
+
+    }
     >p{
-      @include description
+      @include description;
     }
   }
 }
 .FAGCollapse{
-  border-image-slice: 1;
-  border: 1px solid;
-  border-image-source: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
-  background: rgba(255, 255, 255, 0.05);
-  > button {
-    border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  width: 703px;
+  height: 62px;
+  content: ' ';
+  display: block;
+  position: absolute;
+  background: url('/public/assets/svg/SubtractFAQ.svg') no-repeat;
 
-  }
   >h4{
     color: inherit;
     background: rgba(255, 255, 255, 0.05);
