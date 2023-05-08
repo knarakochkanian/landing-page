@@ -1,0 +1,23 @@
+@import "styles/variables.module";
+.stepBorder{
+  max-width: 475px;
+  width: 100%;
+  padding: 3px;
+  position: relative;
+  background: $gradient1;
+  border-radius: 8px;
+}
+.step{
+  background: $color-bg;
+   padding: 22px;
+}
+.stepName{
+  padding-bottom: 16px;
+}
+.stepTitle{
+  padding-bottom: 16px;
+}
+.stepDescription{
+  @include description;
+  color: $color-text;
+}
