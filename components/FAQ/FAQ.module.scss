@@ -8,23 +8,28 @@
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 56px;
   }
 
 }
+.accordionTitle{
+  background-color: $color-bg;
+  padding: 24px;
+  >p{
+  @include description;
+    margin-top: 16px;
+}
+}
 .FAGInfo{
   display: flex;
-  >div{
-    > button {
-      background-color: $color-bg;
-      max-width: 703px;
-      height: 62px;
-      width: 100%;
-      padding: 24px;
 
-    }
-    >p{
-      @include description;
-    }
+  .FAGCollapseWrapper{
+    cursor: pointer;
+    max-width: 703px;
+    width: 100%;
+    padding: 2px;
+    background: $gradient1;
+    margin: 24px;
   }
 }
 .FAGCollapse{
@@ -38,5 +43,12 @@
   >h4{
     color: inherit;
     background: rgba(255, 255, 255, 0.05);
+
   }
+}
+.FAGCollapseBox{
+  position: relative;
+}
+.FAGInfoDescription{
+  @include description;
 }

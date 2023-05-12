@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
 
-body{
+body {
     margin: 0;
+    width: 1625px;
+    content: ' ';
+    display: block;
+    position: absolute;
+    background: url('/public/assets/svg/background.svg') no-repeat;
+
 }
 
 :root{
     background-color: #0C102D;
-}
-main{
-
+    display: flex;
+    justify-content: center;
 }
 
 h1{

@@ -1,0 +1,55 @@
+@import "styles/variables.module";
+.reviewTitle{
+  text-align: center;
+  margin-top: 180px;
+}
+.reviewWrapper{
+  >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.reviewInfo{
+  font-family: 'Inter', serif;
+  @include description;
+  margin-top: 48px;
+}
+.reviewSlider {
+  width: 70%;
+
+}
+.reviewText{
+  width: 30%;
+}
+.slider{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+.active{
+  flex: 6 !important;
+}
+.sliderItem{
+  height: 422px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 10px;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+}
+.slide1 {
+  background-image: url("../../public/assets/leading/man1.png");
+}
+.slide2 {
+  background-image: url("../../public/assets/leading/man2.png");
+}
+.slide3 {
+  background-image: url("../../public/assets/leading/woman.png");
+}
+

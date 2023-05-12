@@ -9,34 +9,46 @@
     text-align: center;
     padding-bottom: 56px;
   }
+  >div:nth-child(3){
+    padding-top: 50px;
+  }
+  >div:nth-child(4){
+    padding-top: 50px;
+  }
 }
-.stepsBorderWrapper {
-  position: relative;
-  max-width: 507px;
-  width: 100%;
+.stepsWrapper{
+  display: flex;
+  >div:nth-child(3){
+    padding-top: 90px;
+  }
 }
-
 .stepsBorder {
   position: absolute;
   right:0;
   bottom: -16px;
 }
-.stepsRight{
+
+.arrowLeft{
+  top: 85px;
   position: absolute;
   right: 0;
-  top: -14px;
 }
-.stepsLeft{
+.arrowRight{
+  top: 85px;
   position: absolute;
-  left: -22px;
-  top: -14px;
+  right: 0;
+}
+.stepsLineWrapper{
+  padding-left: 120px;
+  padding-right: 144px;
+
 }
 .stepsLine{
   position: absolute;
   width: 877px;
   height: 4px;
   left: 14%;
-  top: 45%;
+  top: 53%;
   background: $gradient3;
   transform: rotate(90deg);
 }

@@ -21,3 +21,18 @@
   @include description;
   color: $color-text;
 }
+.stepBorderWrapper {
+  position: relative;
+  max-width: 507px;
+  width: 100%;
+}
+.stepRight{
+  position: absolute;
+  left: 370px;
+  top: 123px;
+}
+.stepLeft{
+  position: absolute;
+  left: 710px;
+  top: 212px;
+}

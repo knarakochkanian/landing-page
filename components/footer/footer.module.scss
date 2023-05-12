@@ -1,0 +1,33 @@
+@import "styles/variables.module";
+.footer{
+  padding:  24px 0;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.logo{
+  max-width: 231px;
+  width: 100%;
+}
+.companies{
+  max-width: 255px;
+  width: 100%;
+>div{
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  *a {
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+}
+.social{
+>div{
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+}
